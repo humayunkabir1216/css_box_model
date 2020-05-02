@@ -1,0 +1,66 @@
+
+ 
+section img{
+
+	width: 300px;
+	padding:5px;
+	border-right:  5px solid red;
+	margin-right: 30px;
+	background-color: #F8D210;
+
+
+}
+
+
+
+img:hover{
+
+
+  border-right: 5px solid #FA26A0;
+  background-color: #2FF3E0;
+}
+
+nav  ul li {
+  display:inline;
+  padding-right:10px;
+}
+
+nav ul li:not(:last-child){
+  border-right:2px solid black;
+  
+}
+
+
+form input, form button {
+	display: block;
+	width: 300px;
+	height: 30px;
+	margin: 10px 0px 10px 0px;
+	box-sizing: border-box;
+
+}
+
+
+form button{
+
+	color: white;
+	background-color: steelblue;
+
+}
+
+
+form input:nth-of-type(1) {
+
+  	border-top:5px solid darkblue;
+
+}
+
+
+
+
+
+
+
+
+
+ 
